@@ -45,7 +45,7 @@ app.use(function(err, req, res, next) {
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
 
-//SI ES UN ERROR MOSTRAR ERROR 500
+  //SI ES UN ERROR MOSTRAR ERROR 500
   res.status(err.status || 500);
 
    //si es una petición al Api, responder con formato JSON
