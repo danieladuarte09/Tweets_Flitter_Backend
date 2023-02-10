@@ -1,4 +1,6 @@
-# NODEAPP
+# FLITTER
+
+Base de datos básica para una aplicación de práctica alusiva a twitter.
 
 Para iniciar se ha instalado nodemon el cual permite arrancar la aplicación con un comando sencillo.
 Pero que a su vez de le han instalado todas sus dependencias y se ha modificado para que pueda funcionar en cualquier tipo de sistema operativo.
